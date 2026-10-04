@@ -25,6 +25,7 @@
 
   var brand = document.getElementById("brand");
   add(brand, el("span", null, "🌸"), el("span", "brand-text", C.courseName === "***" ? C.university + " " + C.department : "「" + C.courseName + "」"));
+  if (C.version) brand.appendChild(el("span", "ver", C.version));
 
   var nav = document.getElementById("nav");
   C.nav.forEach(function (n) {
@@ -40,6 +41,7 @@
   var hi = el("div", "hero-inner");
   var h1 = el("h1");
   add(h1, el("span", "dept", C.university + " " + C.department), document.createTextNode("「" + C.courseName + "」"));
+  if (C.version) h1.appendChild(el("span", "ver", C.version));
   add(hi, el("span", "eyebrow", C.hero.eyebrow), h1, el("p", "subtitle", C.hero.subtitle), el("p", "desc", C.hero.description));
   var badges = el("div", "badges");
   C.hero.badges.forEach(function (b) { badges.appendChild(el("span", "badge", b)); });

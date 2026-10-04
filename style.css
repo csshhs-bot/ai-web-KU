@@ -492,3 +492,8 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 
 .site-footer { padding-bottom: 92px; }
 
+
+/* 수업명 옆 버전 표시 */
+.ver { display: inline-block; margin-left: 8px; padding: 2px 9px; border-radius: 999px; font-size: .72rem; font-weight: 700; line-height: 1.5; vertical-align: middle; color: var(--purple-700); background: var(--purple-100); border: 1px solid var(--purple-300); white-space: nowrap; }
+.hero h1 .ver { font-size: clamp(.8rem, 2.2vw, 1.05rem); margin-left: .7rem; vertical-align: .6em; }
+.brand .ver { font-size: .66rem; flex: 0 0 auto; margin-left: 0; }

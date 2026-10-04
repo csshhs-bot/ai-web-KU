@@ -11,6 +11,7 @@ window.SITE_CONFIG = {
   department: "***학과",          // ← 학과명으로 교체
   courseName: "***",               // ← 교과목명(강의 제목)으로 교체
   courseCode: "XXXX000",
+  version: "v1.0.0",               // 수업명 옆에 표시되는 버전. 비우면 표시하지 않음
   pageTitle: "「***」 | 고려대학교 ***학과",
   footerText: "© 2026 고려대학교 ***학과. All rights reserved.",
 

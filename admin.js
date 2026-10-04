@@ -62,7 +62,7 @@
   }
 
   /* ---------- 화면에서 바로 고치는 범용 편집기 ---------- */
-  var LABELS = { university: "대학교", department: "학과", courseName: "교과목명", courseCode: "학수번호", tagline: "한 줄 소개", pageTitle: "브라우저 탭 제목", footerText: "푸터 문구",
+  var LABELS = { university: "대학교", department: "학과", courseName: "교과목명", courseCode: "학수번호", version: "버전(수업명 옆에 표시, 비우면 숨김)", pageTitle: "브라우저 탭 제목", footerText: "푸터 문구",
     title: "제목", subtitle: "부제목", eyebrow: "상단 문구", description: "설명", badges: "배지", buttons: "버튼", label: "표시 이름", target: "이동할 섹션 id", primary: "강조 버튼",
     summary: "요약", cards: "카드", icon: "아이콘", text: "내용", weeks: "주차", week: "주차", topic: "주제", detail: "세부 내용", info: "강좌 정보", value: "값",
     evaluationTitle: "평가 제목", evaluation: "평가 항목", item: "항목", percent: "비율(%)", notices: "유의 사항", items: "목록", q: "질문", a: "답변", members: "교수자",
@@ -75,7 +75,7 @@
   var SECTIONS = [["basic", "기본 정보"], ["hero", "첫 화면"], ["overview", "한눈에 보기"], ["stats", "통계 카드"], ["intro", "프로그램 소개·장점 슬라이드"], ["curriculum", "커리큘럼·주차별 일정"],
     ["tools", "실습 AI 도구"], ["prep", "수강 준비물"], ["guide", "수강 안내"], ["poll", "투표"], ["enroll", "수강 신청서"], ["classroom", "내 강의실"], ["faq", "FAQ"],
     ["instructor", "교수자(푸터)"], ["popup", "안내 팝업"], ["nav", "상단 메뉴"]];
-  var BASIC = ["university", "department", "courseName", "courseCode", "pageTitle", "footerText"];
+  var BASIC = ["university", "department", "courseName", "courseCode", "version", "pageTitle", "footerText"];
   /* 빈 배열에 항목을 추가할 때 쓰는 기본 모양, 그리고 항상 여러 줄 입력칸으로 보여줄 항목 */
   var EMPTY_TMPL = { videos: { title: "", url: "" } };
   var MULTI = { content: 1, description: 1, text: 1, a: 1, bio: 1, summary: 1, desc: 1 };
