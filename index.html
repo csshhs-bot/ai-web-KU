@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>교과목 소개</title>
+  <meta name="theme-color" content="#f7d6e6">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="petals" id="petals" aria-hidden="true"></div>
+
+  <header class="site-header" id="siteHeader">
+    <div class="header-inner">
+      <a href="#top" class="brand" id="brand"></a>
+      <nav class="nav" id="nav" aria-label="주요 메뉴"></nav>
+      <div class="header-actions">
+        <button class="lock-btn" id="adminBtn" type="button" aria-label="관리자 화면 열기" title="관리자">🔒</button>
+        <button class="menu-toggle" id="menuToggle" aria-label="메뉴 열기" aria-expanded="false" aria-controls="nav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero" id="hero"></section>
+    <div class="container" id="overviewBand"></div>
+    <div class="container" id="statsBand"></div>
+    <div class="container" id="noticeBand"></div>
+    <div id="sections"></div>
+  </main>
+
+  <footer class="site-footer" id="footer"></footer>
+
+  <button class="to-top" id="toTop" aria-label="맨 위로 올라가기">↑</button>
+
+  <script src="config.js"></script>
+  <script src="store.js"></script>
+  <script src="features.js"></script>
+  <script src="course.js"></script>
+  <script src="app.js"></script>
+  <script src="admin.js"></script>
+</body>
+</html>
